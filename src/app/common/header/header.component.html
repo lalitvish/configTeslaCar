@@ -1,0 +1,15 @@
+<header class="header">
+  <button class="step-btn" id="step1" [routerLink]="[ 'selection' ]" routerLinkActive="active">
+    Step 1
+  </button>
+
+  <button class="step-btn" id="step2" [routerLink]="[ 'config' ]" routerLinkActive="active"
+    [disabled]="DisableConfigStep">
+    Step 2
+  </button>
+
+  <button class="step-btn" id="step3" [routerLink]="[ 'summary' ]" routerLinkActive="active"
+    [disabled]="DisablesummaryStep">
+    Step 3
+  </button>
+</header>
